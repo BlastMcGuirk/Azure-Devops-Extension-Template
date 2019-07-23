@@ -1,0 +1,37 @@
+{
+    "manifestVersion": 1,
+    "id": "YOUR_EXTENSION_ID",
+    "publisher": "JSEC",
+    "version": "1.0.0",
+    "name": "YOUR_EXTENSION_NAME",
+    "description": "EXTENSION DESCRIPTION",
+    "categories": [
+        "Other"
+    ],
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "icons": {
+        "default": "static/logo.png"
+    },
+    "content": {
+        "details": {
+            "path": "overview.md"
+        }
+    },
+    "contributions": [
+        YOUR_CONTRIBUTIONS_HERE
+    ],
+    "files": [
+        {
+            "path": "static",
+            "addressable": true
+        },
+        {
+            "path": "dist",
+            "addressable": true
+        }
+    ]
+}
